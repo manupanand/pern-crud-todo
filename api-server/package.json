@@ -4,7 +4,8 @@
   "description": "express-app",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "keywords": [
     "express",
@@ -16,6 +17,7 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.19.2",
+    "nodemon": "^3.1.4",
     "pg": "^8.12.0"
   }
 }
