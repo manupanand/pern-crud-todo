@@ -26,9 +26,9 @@ npm run start
 
 -add .env file in api-server and frontend
 -for Database
-           ``` PORT=portnumber
+           ``` 
+           PORT=portnumber
             DB=`url
-            
             ```
 
 ### Things to do in this application
