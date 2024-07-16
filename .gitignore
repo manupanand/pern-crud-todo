@@ -1,0 +1,3 @@
+/frontend/node_modules
+/api-server/node_modules
+/api-server/*.env

@@ -1,0 +1,21 @@
+{
+  "name": "api-server",
+  "version": "1.0.0",
+  "description": "express-app",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "express",
+    "crud",
+    "postgres"
+  ],
+  "author": "MANU P ANAND",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "pg": "^8.12.0"
+  }
+}
