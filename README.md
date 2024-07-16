@@ -28,7 +28,7 @@ npm run start
 -for Database
            ``` 
            PORT=portnumber
-            DB=`url
+            DB=`url`
             ```
 
 ### Things to do in this application
