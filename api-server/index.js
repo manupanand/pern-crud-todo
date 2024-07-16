@@ -1,5 +1,6 @@
 const express= require("express");
-const cors=require("cors")
+const cors=require("cors");
+const winston=require("winston")
 const app= express();
 require('dotenv').config()
 const PORT=process.env.PORT
@@ -10,6 +11,7 @@ app.use(cors())
 app.use(express.json())
 
 app.get('/',(req,res)=>{
+    winston.log('info', 'debug messages');
     res.send({"message":"test connected"})
 })
 app.get('/login', async(req,res)=>{
