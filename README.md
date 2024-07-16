@@ -23,11 +23,16 @@ npm run dev
 npm run start
 ```
 # Environment setup
-```-add .env file in api-server and frontend
+
+-add .env file in api-server and frontend
 -for Database
-            PORT=portnumber
-            DB=`url````
-# Things to do in this application
+           ``` PORT=portnumber
+            DB=`url
+            
+            ```
+
+### Things to do in this application
+
     -add logging  service on seperate server
     -add loadbalancer 
     -add cache DB redis
@@ -40,4 +45,8 @@ npm run start
 
 ## Useful urls
 
-```https://github.com/winstonjs/winston/tree/2.x```
+```
+https://github.com/winstonjs/winston/tree/2.x
+
+https://github.com/winstonjs/winston
+```
